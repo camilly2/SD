@@ -32,7 +32,7 @@ app.post('/lembretes', async (req, res) => {
       contador,
       texto,
     },
-  });
+  }); 
   //201 significa "created"
   res.status(201).send(lembretes[contador])
 })
